@@ -32,8 +32,6 @@ import { americanAll, indianAll } from './data/subjects/index';
 
 export default function App() {
   return (
-    <ThemeProvider>
-      <AppProvider>
         <BrowserRouter>
           <Routes>
             <Route element={<Layout />}>
@@ -72,7 +70,5 @@ export default function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-      </AppProvider>
-    </ThemeProvider>
-  );
-}
+      );
+    }
