@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Layout } from './components/Layout';
 import { LandingPage } from './pages/LandingPage';
 import { HistoryPage } from './pages/HistoryPage';
 import { PeriodDetailPage } from './pages/PeriodDetailPage';
