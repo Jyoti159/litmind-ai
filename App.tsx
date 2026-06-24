@@ -1,6 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { ThemeProvider } from './context/ThemeContext';
-import { AppProvider } from './context/AppContext';
 import { Layout } from './components/Layout';
 import { LandingPage } from './pages/LandingPage';
 import { HistoryPage } from './pages/HistoryPage';
